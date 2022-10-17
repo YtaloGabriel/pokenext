@@ -1,9 +1,10 @@
 import Image from 'next/image';
 
 import styles from '../styles/Home.module.css';
+import Card from './components/Card';
 
 export async function getStaticProps() {
-  const maxPokemons = 251;
+  const maxPokemons = 99;
   const api = 'https://pokeapi.co/api/v2/pokemon/';
 
   const res = await fetch(`${api}/?limit=${maxPokemons}`);
@@ -37,7 +38,7 @@ export default function Home({ pokemons }) {
       </div>
       <div className={styles.pokemonContainer}>
         {pokemons?.map((pokemon) => (
-          <p key={pokemon.id}>{pokemon.name}</p>
+          <Card key={pokemon.id} pokemon={pokemon} />
         ))}
       </div>
     </>
