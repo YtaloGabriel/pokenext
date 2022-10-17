@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
     <div className="content">
       <Head>
         <link rel="shortcut icon" href="/images/pokeball.ico" />
-        <title>PokeNext - Pokémon List</title>
+        <title>PokeNext - Home</title>
       </Head>
 
       <Header />

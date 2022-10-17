@@ -1,0 +1,25 @@
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  gap: .5rem;
+}
+
+.title {
+  color: #E33D33;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.title > span {
+  color: #fff;
+}
+
+.pokemonContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}

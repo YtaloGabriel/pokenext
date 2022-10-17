@@ -14,6 +14,10 @@
   gap: 1rem;
 }
 
+.logo > h1 {
+  font-size: 1.2rem;
+}
+
 .linkItems {
   display: flex;
   gap: 1rem;
