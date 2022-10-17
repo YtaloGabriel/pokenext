@@ -18,6 +18,17 @@ a {
 
 li {list-style: none;}
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
+main {
+  flex: 1;
+  margin: 2rem auto;
+  max-width: 56rem;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -25,9 +36,4 @@ li {list-style: none;}
   width: 100vw;
   background-color: var(--dark3);
   color: #fff;
-}
-
-main {
-  flex: 1;
-  margin: 2rem 0;
 }
