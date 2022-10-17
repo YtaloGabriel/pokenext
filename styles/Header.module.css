@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.7rem;
+  background-color: var(--dark1);
+  box-shadow: 0 1px .7rem rgba(0, 0, 0, .3);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.linkItems {
+  display: flex;
+  gap: 1rem;
+}
+
+.linkItems a {
+  padding: .5rem;
+  transition: .3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.linkItems a:hover {
+  border-color: #fff;
+}

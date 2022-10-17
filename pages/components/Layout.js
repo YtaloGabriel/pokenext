@@ -1,20 +1,20 @@
 import Head from 'next/head';
 
 import Footer from './Footer';
-import Navbar from './Navbar';
+import Header from './Header';
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div className="content">
       <Head>
-        <link rel="shortcut icon" href="/assets/pokeball.ico" />
+        <link rel="shortcut icon" href="/images/pokeball.ico" />
         <title>PokeNext - Pokémon List</title>
       </Head>
 
-      <Navbar />
-      <main>{children}</main>
+      <Header />
+      <main className="mainContainer">{children}</main>
       <Footer />
-    </>
+    </div>
   );
 };
 

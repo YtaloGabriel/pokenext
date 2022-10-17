@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark1);
+  height: 5rem;
+  box-shadow: 0 -1px .5rem rgba(0, 0, 0, .3);
+}
+
+.footer span {font-weight: bold;}
