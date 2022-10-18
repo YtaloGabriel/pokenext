@@ -6,15 +6,19 @@ import styles from '../styles/Header.module.css';
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
-        <Image
-          src="/images/pokeball.png"
-          width="50"
-          height="50"
-          alt="Pokeball image"
-        />
-        <h1>PokeNext</h1>
-      </div>
+      <Link href="/">
+        <a>
+          <div className={styles.logo}>
+            <Image
+              src="/images/pokeball.png"
+              width="50"
+              height="50"
+              alt="Pokeball image"
+            />
+            <h1>PokeNext</h1>
+          </div>
+        </a>
+      </Link>
       <nav className={styles.navbar}>
         <ul className={styles.linkItems}>
           <li>
